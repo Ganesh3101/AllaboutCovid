@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp">
+
+        <SearchView
+            android:layout_width="319dp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/_50x150"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Location"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Cases"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10293"
+                android:textColor="#FF0000"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_margin="10sp"
+                android:src="@drawable/ic_baseline_arrow_downward_24"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recovered Patients"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10209"
+                android:textColor="#00FF00"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_upward_24"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your State"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Cases"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10293"
+                    android:textColor="#FF0000"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_downward_24"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recovered Patients"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10209"
+                    android:textColor="#00FF00"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_upward_24"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Country"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Cases"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10293"
+                    android:textColor="#FF0000"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_downward_24"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recovered Patients"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10209"
+                    android:textColor="#00FF00"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_upward_24"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="World"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Cases"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10293"
+                    android:textColor="#FF0000"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_downward_24"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130sp"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recovered Patients"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textSize="20sp"
+                android:layout_margin="10sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10209"
+                    android:textColor="#00FF00"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="20sp"
+                    android:layout_margin="10sp"/>
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_margin="10sp"
+                    android:src="@drawable/ic_baseline_arrow_upward_24"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
